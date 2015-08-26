@@ -1,0 +1,44 @@
+{
+  "name": "package-dependency-stats",
+  "version": "1.0.0",
+  "description": "get reigstry stats of all package.json dependencies",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "map-limit": "0.0.1",
+    "npm-stats": "^1.1.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "read-closest-package": "^1.0.1",
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "standard && node test.js | faucet"
+  },
+  "keywords": [
+    "package.json",
+    "json",
+    "package",
+    "stats",
+    "dependencies",
+    "deps",
+    "dependency",
+    "devDependency",
+    "registry"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/package-dependency-stats.git"
+  },
+  "homepage": "https://github.com/Jam3/package-dependency-stats",
+  "bugs": {
+    "url": "https://github.com/Jam3/package-dependency-stats/issues"
+  }
+}
